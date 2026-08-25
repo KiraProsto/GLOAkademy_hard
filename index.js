@@ -8,3 +8,8 @@ for (let i = 0; i < digits.length; i++) {
 
 product = (product ** 3).toString();
 console.log(product.substring(0, 2));
+
+//через reduce
+product = digits.reduce((acc, digit) => acc * digit, 1);
+product = product = (product ** 3).toString();
+console.log(product.substring(0, 2));

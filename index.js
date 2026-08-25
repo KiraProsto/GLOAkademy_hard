@@ -11,6 +11,11 @@
 // product = (product ** 3).toString();
 // console.log(product.substring(0, 2));
 
+//через reduce
+// product = digits.reduce((acc, digit) => acc * digit, 1);
+// product = product = (product ** 3).toString();
+// console.log(product.substring(0, 2));
+
 // lesson03
 const ru_week =
   'Понедельник\nВторник\nСреда\nЧетверг\nПятница\nСуббота\nВоскресенье';
